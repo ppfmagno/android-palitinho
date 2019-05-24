@@ -45,17 +45,17 @@
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/descricao_mao_jogador"
         android:scrollY="-80dp"
-        app:layout_constraintBottom_toTopOf="@+id/myRectangleView"
+        app:layout_constraintBottom_toTopOf="@+id/fundoMenu"
         app:layout_constraintEnd_toStartOf="@+id/right_guideline"
         app:layout_constraintStart_toStartOf="@+id/left_guideline"
         app:layout_constraintTop_toBottomOf="@+id/maoCPU"
         app:srcCompat="@drawable/mao_fechada" />
 
     <View
-        android:id="@+id/myRectangleView"
+        android:id="@+id/fundoMenu"
         android:layout_width="0dp"
         android:layout_height="150dp"
-        android:background="@drawable/fundo_meu"
+        android:background="@drawable/fundo_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
