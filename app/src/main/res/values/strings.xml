@@ -2,4 +2,6 @@
     <string name="app_name">Palitinho</string>
     <string name="descricao_mao_CPU">Imagem da mão da CPU</string>
     <string name="descricao_mao_jogador">Imagem da mão do jogador</string>
+    <string name="rotulo_palitinhos">Palitinhos:</string>
+    <string name="rotulo_palpite">Palpite:</string>
 </resources>

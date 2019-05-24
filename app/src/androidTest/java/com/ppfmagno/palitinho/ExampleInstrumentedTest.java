@@ -1,4 +1,4 @@
-package com.andrezabarros.palitinho;
+package com.ppfmagno.palitinho;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
