@@ -143,8 +143,8 @@ public class MainActivity extends AppCompatActivity {
         maoJogador.setImageResource(maoFechada);
         maoCPU.setImageResource(maoFechada);
 
-        barraDeEscolhas.setProgress(0);
         barraDeEscolhas.setOnSeekBarChangeListener(mudarPalitinhos);
+        barraDeEscolhas.setProgress(0);
 
         // Escutador de click é definido para a escolha de palitos (mudará posteriormente)
         botaoOk.setOnClickListener(definirPalitinhos);
@@ -154,8 +154,8 @@ public class MainActivity extends AppCompatActivity {
     void ajustarViewParaPalpite() {
         textoOrientacao.setText("Dê seu palpite:");
 
-        barraDeEscolhas.setProgress(0);
         barraDeEscolhas.setOnSeekBarChangeListener(mudarPalpite);
+        barraDeEscolhas.setProgress(0);
 
         // Escutador de click é definido para a escolha do palpite
         botaoOk.setOnClickListener(definirPalpite);
