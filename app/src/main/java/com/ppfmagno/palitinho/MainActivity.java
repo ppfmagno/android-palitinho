@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity {
     void mostrarResultado() {
         if (quemGanhou().equals("jogador")) resultadoPartida.setText("Você venceu! :)");
         else if (quemGanhou().equals("cpu")) resultadoPartida.setText("Você perdeu! :(");
-        else resultadoPartida.setText("Empatou!");
+        else resultadoPartida.setText("Ninguém ganhou!");
     }
 
     // Define vencedor a partir da soma dos palitos e comparando com o palpite
